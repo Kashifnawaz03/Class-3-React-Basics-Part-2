@@ -16,9 +16,9 @@ function Room() {
     The light is {isLit? "On" : "Off"}
     <br/>
     Age : {age}
-    <br/>
+    <br/><br/>
     <button onClick = {updateLit}>Toggle Light</button>
-    <br/>
+    <br/><br/>
     <button onClick = { ()=> {
         console.log("age Button Clicked");
         setAge(++age);
