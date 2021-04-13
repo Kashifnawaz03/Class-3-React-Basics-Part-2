@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import Newd from './Newd.css'
+//import './Newd.css'
+import Newd from './Newd.css';
 
 
 function Room() {
@@ -12,8 +13,8 @@ function Room() {
     }   
    
   return (
-    <div className= "room dark" >
-    The light is {isLit? "lit" : "dark"}
+    <div className= "room , dark">
+    The room is {isLit? "lit" : "dark"}
     <br/>
     Age : {age}
     <br/><br/>
