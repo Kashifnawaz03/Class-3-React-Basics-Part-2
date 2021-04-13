@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Rooms.css';
+import Newd from './Newd.css'
 
 
 function Room() {
